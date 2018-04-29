@@ -3,7 +3,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
 
 @Injectable()
 export class ProductService {
-  url = '/products';
+  private url = '/products';
 
   constructor(private db: AngularFireDatabase) { }
 
